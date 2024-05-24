@@ -1,0 +1,28 @@
+#malin{
+        margin: 30px;
+     }
+
+     .btn-white {
+      background-color: rgb(164, 223, 46);
+     }
+.animasi {
+      animation: fadeIn 0.5s ease, boxShadow 0.5s ease;
+   }
+
+   @keyframes fadeIn {
+      0% {
+         opacity: 0;
+      }
+      100% {
+         opacity: 1;
+      }
+   }
+   
+@keyframes boxShadow {
+      0% {
+         box-shadow: none;
+      }
+      100% {
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      }
+   }
